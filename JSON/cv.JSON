@@ -1,7 +1,9 @@
 {
-    "pageTitle": {
-        "cvTitle": "Dariusz Wroblewski"
-    }
+    "cvTitle": "Dariusz Wroblewski",
 
-    
+
+    "kompetensTitle": "Kompetenser",
+    "kompetens": [
+        "Svenska <br> Engelska <br> Polska <br> Truckkort <br> Dedikerad <br> Stresstålig <br> Pålitlig"
+    ]
 }
