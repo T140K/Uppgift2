@@ -1,12 +1,7 @@
-function createElementH1() {
-    element = document.createElement('h1')
-    element.innerHTML = inputa;
-    document.appendChild(inputa);
-}
 
-fetch('js/cv.JSON').then (function (response) {
-    return response.json();
-})
-.then(function () {
-    
-})
+
+fetch('JSON/cv.JSON')
+   .then(response => response.json())
+   .then(data => {
+      document.querySelector('.title-text').innerHTML = data.pageTitle.cvTitle;
+   })
