@@ -177,8 +177,16 @@ p {
     border-radius: 50%;
 }
 
+.contact-cv {
+    text-align: center;
+}
+
 .contact-cv p {
     padding: 0;
+}
+
+.answer-cv {
+    font-weight: 200;
 }
 
 .question {
@@ -197,10 +205,6 @@ p {
     grid-area: sidebar-cv;
     text-align: center;
     display: block;
-}
-
-.sidebar-cv-text {
-    margin-bottom: 42px;    
 }
 
 .sidebar-cv h2 {

@@ -1,9 +1,41 @@
 {
     "cvTitle": "Dariusz Wroblewski",
-
-
     "kompetensTitle": "Kompetenser",
     "kompetens": [
         "Svenska <br> Engelska <br> Polska <br> Truckkort <br> Dedikerad <br> Stresstålig <br> Pålitlig"
-    ]
+    ],
+    "infoTitle": "Kontaktinfo",
+    "infoArr": [
+        {
+            "question": "Adress: ",
+            "answer": "Bäckgårdsvägen 45"
+        },
+        {
+            "question": "Email: ",
+            "answer": "darek1430143@gmail.com"
+        },
+        {
+            "question": "Nummer: ",
+            "answer": "076 876 22 66"
+        }
+    ],
+    "omMigH2": "Om Mig",
+    "omMigP": "Jag är en driven hårt jobbande och pålitlig kille som gillar hålle på med datorer samt fysiska aktiviterer som gym och kampsport. Jag försöker alltid ha en positiv attityd.",
+    "minaErfH2": "Mina Erfarenhet",
+    "jobb1": {
+        "jobb": "Feriepraktik, Huddinge Kommun",
+        "datum": "Juni 2019 - Aug 2019",
+        "desc": "Arbetsuppgifterna infattade hantering av kunder och utförande av olika jobb som begärdes av mig, detta jobb kunde vara att vara i centrum och fråga folk som går förbi frågor till en undersökning, högtryckstvätta gator m.m."
+    },
+    "jobb2": {
+        "jobb": "Leverantör, Eanplock AB",
+        "datum": "Okt 2020 — Okt 2021",
+        "desc": "Tog emot och packade upp paletter och satte godsen på rätta hyllor i flera affärer som Coop, Hemköp, ICA. Beställde varor som saknades eller jag visste skulle saknas genom deras hemsida och skrev in nya varor i deras system."
+    },
+    "school": {
+        "titel": "Utbildning",
+        "h2": "Gymnasieexamen, Cybergymnasiet",
+        "date": "aug 2018 - aug 2021",
+        "desc": "Jag pluggade på Informations och medieteknik i 3 år då jag lärde mig mycket engelska, matte, svenska, fysik om mycket om datorer då, hur en dator är byggd och vad man kan göra med den samt många kurser gällande medieteknik som skapa hemsidor, appar spel m.m. Med de kursärna lärde vi oss även mycket om data säkerhet."
+    }
 }
