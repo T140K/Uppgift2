@@ -335,6 +335,8 @@ p {
         grid-template-areas: "header" "page";
         margin: 0;
         height: auto;
+        padding-left: 5px;
+        padding-right: 5px;
         
     }
 
@@ -383,8 +385,8 @@ p {
     }
 
     .main {
-        font-size: 6vw;
-        
+        font-size: 5vw;
+        width: 90vw;
     }
 
     #portfolio-target p{
