@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,10 +44,27 @@
 
             <h2>Random number guesser</h2>
             <p>Det är en simpel projekt som man gissar ett nummer från 1 till 100
-                <button>Spela spelet</button>
-                <a href="">
+                <button class="project-link" id="open">Spela spelet</button>
+                <a target="_blank" href="https://github.com/T140K/number-guesser">
                     <button class="project-link">Länk till github repon</button>
                 </a>
+            <div id="modal_container" class="modal-container">
+                <div class="modal">
+
+                    <div id="game-area">
+                        <h3>Guessing game</h3>
+                        <p>Guess the number in the using the textbox</p>
+                        <input id="text-box" type="text" placeholder="guess here">
+                        <button id="guessBtn">Guess</button>
+                        <p id="helper">Guess!</p>
+                        <p id="counter">Number of guesses</p>
+                    </div>
+                    <script src="js/guessgame.js"></script>
+
+                    <button class="project-link" id="close">Close</button>
+                </div>
+            </div>
+
             </p>
         </div>
 
@@ -55,5 +73,8 @@
             <img class="ad1" alt="ad" src="img/vodka-ad.png">
         </div>
     </div>
+
+    <script src="js/modal.js"></script>
 </body>
+
 </html>
